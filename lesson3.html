@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Please create an external CSS file and link to it inside the HEAD-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic HTML Webpage</title>
+        /* Add some basic styling here if needed */
+        <style>
+            body{
+                background-color: grey;
+            }
+            ul{
+                list-style-type: square;
+            }
+            img{
+                width: 300px;
+                height: 300px;
+            }
+            a{
+                color: purple;
+            }
+            article{
+                font-family: 'Courier New';
+            }
+            #th1{
+                background-color:aqua;
+                color: darkblue;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+            #th2{
+                background-color:brown;
+                color:burlywood;
+                text-decoration: underline;
+                font-weight: bold;
+            }
+        </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Section 1</a></li>
+                <li><a href="#section2">Section 2</a></li>
+                <li><a href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <article>
+            <h2>Section 1: Introduction</h2>
+            <p>This is a basic HTML webpage to demonstrate various HTML tags.</p>
+            <p>Feel free to explore and learn!</p>
+        </article>
+    </section>
+
+    <section id="section2">
+        <article>
+            <h2>Section 2: Lists and Images</h2>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <img src="https://images.amazon.com/images/G/01/electronics/acer/acer-AM3400-hero_complete-lg.jpg" alt="Placeholder Image">
+        </article>
+    </section>
+
+    <section id="section3">
+        <article>
+            <h2>Section 3: Form and Table</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th id="th1">Header 1</th>
+                        <th id="th2">Header 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Basic Webpage</p>
+    </footer>
+
+</body>
+
+</html>

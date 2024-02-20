@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+
+        body{
+            background-image: url("https://images.squarespace-cdn.com/content/v1/51990477e4b0f50f41c3d666/1500751975032-MLSUP812M3A0YWB2ILRQ/ke17ZwdGBToddI8pDm48kKAwwdAfKsTlKsCcElEApLR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UegTYNQkRo-Jk4EWsyBNhwKrKLo5CceA1-Tdpfgyxoog5ck0MD3_q0rY3jFJjjoLbQ/image-asset.jpeg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        img{
+            max-width: 75%;
+            max-height: 75%;
+            position: fixed;
+        }
+
+        @media only screen and (max-width: 896px)and  (min-width: 375px) {
+            body{
+                background-color: blue;
+                background-image: none;
+            }
+        }
+        @media only screen and (max-width: 375px) {
+            body{
+                width: 75%;
+                height: auto;
+                background-color: orange;
+                background-image: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <main>
+        <article>
+            <h2>About Us</h2>
+            <p>This is where you can write about your company or yourself.</p>
+            <img src="https://www.fodors.com/wp-content/uploads/2020/06/03_AustraliasCutestCubs__Quoll_shutterstock_757121674.jpg"/>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
