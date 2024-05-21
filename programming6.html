@@ -7,13 +7,13 @@
 </head>
 <body>
     <div id="content">
-        <button id="changeTextButton">Hello WOrld!</button>
+        <button id="changeTextButton"></button>
         <button id="changeColourButton" type="button"
-        onclick="document.getElementById('changeColourButton').style.color = 'yellow'">Click me to change colour!</button>
+        onclick="document.getElementById('changeColourButton').style.backgroundColor = 'yellow'">Click me to change colour!</button>
         <p id="dateDisplay"></p>
     </div>
     <script>
-        document.getElementById("changeTextButton").innerHTML = "Bye, see you tomorrow!";
+        document.getElementById("changeTextButton").innerHTML = "Hello World!";
         document.getElementById("changeTextButton").addEventListener("click", displayDate);
 
 function displayDate() {
